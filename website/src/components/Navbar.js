@@ -16,13 +16,30 @@ const Left = styled.div`
 `;
 const Logo = styled.h1`
   font-weight: bold;
+  text-decoration: underline crimson;
 `;
+const Menu = styled.ul`
+display:flex;
+`
+const MenuItem = styled.li`
+display:flex;
+`
+
 
 const Navbar = () => {
   return (
     <Container>
       <Wrapper>
-        <span><Logo>Agency</Logo></span>
+        <Left>
+          <Logo>Agency</Logo>
+          <Menu>
+            <MenuItem>Home</MenuItem>
+            <MenuItem>Features</MenuItem>
+            <MenuItem>Services</MenuItem>
+            <MenuItem>Pricing</MenuItem>
+            <MenuItem>Contact</MenuItem>
+          </Menu>
+        </Left>
         <span>button</span>
       </Wrapper>
     </Container>
