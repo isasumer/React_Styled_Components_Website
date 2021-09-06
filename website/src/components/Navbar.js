@@ -6,16 +6,23 @@ const Container = styled.div`
   background-color: orange;
 `;
 const Wrapper = styled.div`
-padding: 20px 30px;
-display:flex;
-justify-content: space-between;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Left = styled.div`
+  width: 60%;
+`;
+const Logo = styled.h1`
+  font-weight: bold;
 `;
 
 const Navbar = () => {
   return (
     <Container>
       <Wrapper>
-        <span>logo</span>
+        <span><Logo>Agency</Logo></span>
         <span>button</span>
       </Wrapper>
     </Container>
