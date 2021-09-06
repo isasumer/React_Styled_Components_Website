@@ -9,22 +9,39 @@ const Wrapper = styled.div`
   padding: 20px 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `;
 
 const Left = styled.div`
   width: 60%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
 `;
 const Logo = styled.h1`
   font-weight: bold;
   text-decoration: underline crimson;
 `;
 const Menu = styled.ul`
-display:flex;
-`
+  display: flex;
+  align-items: center;
+`;
 const MenuItem = styled.li`
-display:flex;
-`
+  display: flex;
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color:gray;
+`;
 
+const Button =styled.button`
+border:2px solid white;
+padding: 10px 15px;
+background-color: crimson;
+font-weight: bold;
+border-radius: 10px;
+cursor:pointer;
+`
 
 const Navbar = () => {
   return (
@@ -40,7 +57,7 @@ const Navbar = () => {
             <MenuItem>Contact</MenuItem>
           </Menu>
         </Left>
-        <span>button</span>
+        <Button>JOIN NOW</Button>
       </Wrapper>
     </Container>
   );
