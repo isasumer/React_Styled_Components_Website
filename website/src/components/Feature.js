@@ -5,13 +5,16 @@ import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   display: flex;
+  margin-top:30px;
 `;
 const Left = styled.div`
+
   display: flex;
+
   width: 50%;
 `;
 const Image = styled.img`
-  width: 50%;
+  /* width: 50%; */
   /* height: 50%;*/
 `;
 const Right = styled.div`
