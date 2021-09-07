@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Woman from "./img/woman2.png";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -57,7 +58,7 @@ const Contact = styled.div`
 `;
 
 const Phone = styled.span`
-  color: pink;
+  color: crimson;
   font-weight: bold;
 `;
 const ContactText = styled.span`
@@ -69,16 +70,7 @@ const Image = styled.img`
   height: 60%;
 `;
 
-const IntroShape=styled.div `
-width: 100%;
-height:100;
-position:absolute;
-top:0px;
-left:0px;
-clip-path: polygon(80% 0, 100% 0%, 100% 100%, 48% 100%, 64% 43%);
-background-color: crimson;
-z-index:-1;
-`
+
 const Intro = () => {
   return (
     <Container>
@@ -101,6 +93,7 @@ const Intro = () => {
       </Left>
       <Right>
         <Image src={Woman}></Image>
+        <AnimatedShapes/>
       </Right>
     </Container>
   );
