@@ -48,9 +48,9 @@ const Button = styled.button`
   color: white;
   border-radius: 10px;
   font-weight: bold;
-  border: none;
+  
   letter-spacing: 2px;
-  cursor: pointer;
+  cursor:pointer;
 `;
 const Contact = styled.div`
   display: flex;

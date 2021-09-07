@@ -34,9 +34,8 @@ const MenuItem = styled.li`
 `;
 
 const Button =styled.button`
-border:2px solid white;
 padding: 10px 15px;
-background-color: crimson;
+background-color: orange;
 font-weight: bold;
 border-radius: 10px;
 cursor:pointer;

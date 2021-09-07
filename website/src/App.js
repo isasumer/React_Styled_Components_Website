@@ -18,7 +18,7 @@ const Shape = css`
   z-index: -1;
 `;
 
-const IntoShape = styled.div`
+const IntroShape = styled.div`
   ${Shape}
   clip-path: polygon(70% 0, 100% 0%, 100% 100%, 48% 100%);
   background-color: crimson;
@@ -34,7 +34,7 @@ const App = () => {
       <Container>
         <Navbar />
         <Intro />
-        <IntoShape />
+        <IntroShape />
       </Container>
       <Container>
         <Feature/>

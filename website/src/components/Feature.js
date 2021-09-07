@@ -56,7 +56,6 @@ const Feature = () => {
         <Title>
           <b>Lorem</b>  ipsum <br></br>
           <b>Lorem  </b> dolor<br></br>
-          
         </Title>
         <SubTitle>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
