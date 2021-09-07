@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import App from "./img/App.png";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   display: flex;
@@ -10,13 +11,14 @@ const Left = styled.div`
   width: 50%;
 `;
 const Image = styled.img`
-  width: 80%;
+  width: 50%;
   /* height: 50%;*/
 `;
 const Right = styled.div`
   display: flex;
   flex-direction:column;
   justify-content: center;
+  width: 50%;
 `;
 
 const Title = styled.span`
@@ -52,8 +54,9 @@ const Feature = () => {
       </Left>
       <Right>
         <Title>
-          <b>Lorem ipsum </b> <br></br>
-          dolor sit
+          <b>Lorem</b>  ipsum <br></br>
+          <b>Lorem  </b> dolor<br></br>
+          
         </Title>
         <SubTitle>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
@@ -65,6 +68,7 @@ const Feature = () => {
         </Desc>
         <Button>Learn More</Button>
       </Right>
+      <AnimatedShapes/>
     </Container>
   );
 };
