@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/github.com/isasumer/React_Styled_Components_Website/static/js/main.2ccdd1ae.chunk.js",
-    "main.js.map": "/github.com/isasumer/React_Styled_Components_Website/static/js/main.2ccdd1ae.chunk.js.map",
-    "runtime-main.js": "/github.com/isasumer/React_Styled_Components_Website/static/js/runtime-main.efe4ab3b.js",
-    "runtime-main.js.map": "/github.com/isasumer/React_Styled_Components_Website/static/js/runtime-main.efe4ab3b.js.map",
-    "static/js/2.8c85a49f.chunk.js": "/github.com/isasumer/React_Styled_Components_Website/static/js/2.8c85a49f.chunk.js",
-    "static/js/2.8c85a49f.chunk.js.map": "/github.com/isasumer/React_Styled_Components_Website/static/js/2.8c85a49f.chunk.js.map",
-    "static/js/3.5f1009b6.chunk.js": "/github.com/isasumer/React_Styled_Components_Website/static/js/3.5f1009b6.chunk.js",
-    "static/js/3.5f1009b6.chunk.js.map": "/github.com/isasumer/React_Styled_Components_Website/static/js/3.5f1009b6.chunk.js.map",
-    "index.html": "/github.com/isasumer/React_Styled_Components_Website/index.html",
-    "static/js/2.8c85a49f.chunk.js.LICENSE.txt": "/github.com/isasumer/React_Styled_Components_Website/static/js/2.8c85a49f.chunk.js.LICENSE.txt",
-    "static/media/App.ff0d37b8.png": "/github.com/isasumer/React_Styled_Components_Website/static/media/App.ff0d37b8.png",
-    "static/media/play.74384196.png": "/github.com/isasumer/React_Styled_Components_Website/static/media/play.74384196.png",
-    "static/media/service.ec7b15fd.png": "/github.com/isasumer/React_Styled_Components_Website/static/media/service.ec7b15fd.png",
-    "static/media/woman.990c562d.png": "/github.com/isasumer/React_Styled_Components_Website/static/media/woman.990c562d.png"
+    "main.js": "/isasumer/React_Styled_Components_Website/static/js/main.2ccdd1ae.chunk.js",
+    "main.js.map": "/isasumer/React_Styled_Components_Website/static/js/main.2ccdd1ae.chunk.js.map",
+    "runtime-main.js": "/isasumer/React_Styled_Components_Website/static/js/runtime-main.581aa1cb.js",
+    "runtime-main.js.map": "/isasumer/React_Styled_Components_Website/static/js/runtime-main.581aa1cb.js.map",
+    "static/js/2.ba02c416.chunk.js": "/isasumer/React_Styled_Components_Website/static/js/2.ba02c416.chunk.js",
+    "static/js/2.ba02c416.chunk.js.map": "/isasumer/React_Styled_Components_Website/static/js/2.ba02c416.chunk.js.map",
+    "static/js/3.5f1009b6.chunk.js": "/isasumer/React_Styled_Components_Website/static/js/3.5f1009b6.chunk.js",
+    "static/js/3.5f1009b6.chunk.js.map": "/isasumer/React_Styled_Components_Website/static/js/3.5f1009b6.chunk.js.map",
+    "index.html": "/isasumer/React_Styled_Components_Website/index.html",
+    "static/js/2.ba02c416.chunk.js.LICENSE.txt": "/isasumer/React_Styled_Components_Website/static/js/2.ba02c416.chunk.js.LICENSE.txt",
+    "static/media/App.ff0d37b8.png": "/isasumer/React_Styled_Components_Website/static/media/App.ff0d37b8.png",
+    "static/media/play.74384196.png": "/isasumer/React_Styled_Components_Website/static/media/play.74384196.png",
+    "static/media/service.ec7b15fd.png": "/isasumer/React_Styled_Components_Website/static/media/service.ec7b15fd.png",
+    "static/media/woman.990c562d.png": "/isasumer/React_Styled_Components_Website/static/media/woman.990c562d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.efe4ab3b.js",
-    "static/js/2.8c85a49f.chunk.js",
+    "static/js/runtime-main.581aa1cb.js",
+    "static/js/2.ba02c416.chunk.js",
     "static/js/main.2ccdd1ae.chunk.js"
   ]
 }
