@@ -8,11 +8,18 @@ const Container = styled.div`
   justify-content: start;
   align-items: center;
   flex-direction: column;
+  @media only screen and (max-width: 480px) {
+    width: 100%;}
 `;
 
 const Title = styled.h1`
-  margin: 50px 0;
-  font-size: 3rem;
+
+
+  margin: 20px 0;
+  font-size: 2rem;
+  @media only screen and (max-width: 480px) {
+    margin-left: 80px;
+    width: 100%;}
 `;
 const Bottom = styled.div``;
 const CardContainer = styled.div`
@@ -20,6 +27,11 @@ const CardContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 70%;
+  @media only screen and (max-width: 480px) {
+    flex-direction: row;
+    width: 100%;
+    
+  }
 `;
 const Price = () => {
   return (

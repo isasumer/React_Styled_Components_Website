@@ -12,15 +12,26 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width: 35%;
+
+  @media only screen and (max-width: 480px) {
+    margin: 0 4px;
+    width: 100%;
+  }
 `;
 const PriceContainer = styled.div`
   padding: 10px;
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 480px) {
+    padding: 2px;
+  }
 `;
 const Price = styled.span`
   font-size: 50px;
   font-weight: bold;
+  @media only screen and (max-width: 480px) {
+    font-size: 25px;
+  }
 `;
 const Type = styled.button`
   padding: 10px;
@@ -29,14 +40,24 @@ const Type = styled.button`
   color: crimson;
   background-color: white;
   border-radius: 20px;
+  @media only screen and (max-width: 480px) {
+    padding: 2px;
+    margin: 5px 0px;
+  }
 `;
 const List = styled.ul`
   list-style: none;
   margin: 10px;
   padding: 0px;
+  @media only screen and (max-width: 480px) {
+    margin: 4px 0px;
+  }
 `;
 const ListItem = styled.li`
   margin: 20px 0;
+  @media only screen and (max-width: 480px) {
+    margin: 15px 0px;
+  }
 `;
 const Button = styled.button`
   background-color: blue;
@@ -46,6 +67,10 @@ const Button = styled.button`
   border-radius: 10px;
   cursor: pointer;
   font-weight: bold;
+  @media only screen and (max-width: 480px) {
+    font-size: 14px;
+    padding: 14px;
+  }
 `;
 const PriceCard = ({ price, type }) => {
   //because we send 2 value we used "{}" for it

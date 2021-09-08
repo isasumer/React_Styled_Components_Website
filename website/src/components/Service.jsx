@@ -7,12 +7,19 @@ import Play from "./img/play.png";
 
 const Container = styled.div`
   display: flex;
-  height:100%;
-  margin-top:100px;
+  height: 100%;
+  margin-top: 100px;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    position: relative;
+  }
 `;
 const Left = styled.div`
   width: 50%;
-  position:relative;
+  position: relative;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Image = styled.img`
@@ -29,16 +36,28 @@ const Video = styled.video`
   bottom: 0;
   right: 0;
   margin: auto;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const Right = styled.div`
   width: 50%;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const Wrapper = styled.div`
   display: flex;
   padding: 50px;
   flex-direction: column;
+  @media only screen and (max-width: 480px) {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const Title = styled.h1``;
@@ -71,9 +90,29 @@ const Icon = styled.img`
   width: 25px;
   margin-right: 10px;
 `;
+
+const Modal = styled.div`
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+`;
+
+const CloseButton = styled.button`
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  right: 5px;
+  top: 30%;
+`;
+
 const Service = () => {
   const [open, setOpen] = useState(false);
-
+  const smallScreen = window.screen.width <= 480 ? true : false;
   return (
     <Container>
       <Left>
@@ -105,7 +144,19 @@ const Service = () => {
           </Button>
         </Wrapper>
       </Right>
-      <AnimatedShapes/>
+      {smallScreen && open && (
+        <Modal>
+          <Video
+            open={open}
+            autoPlay
+            loop
+            controls
+            src="https://player.vimeo.com/external/449759244.sd.mp4?s=d5f3da46ddc17aa69a7de84f1e420610ebd2a391&profile_id=139&oauth2_token_id=57447761"
+          />
+          <CloseButton onClick={() => setOpen(false)}>Close</CloseButton>
+        </Modal>
+      )}
+      <AnimatedShapes />
     </Container>
   );
 };

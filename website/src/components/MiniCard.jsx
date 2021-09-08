@@ -10,6 +10,8 @@ const Container = styled.div`
   -webkit-box-shadow: 5px 7px 6px 2px #00000076;
   box-shadow: 5px 7px 6px 2px #0000006d;
   align-items: center;
+  @media only screen and (max-width: 480px) {
+width:60px;}
 `;
 
 const Image = styled.img`
