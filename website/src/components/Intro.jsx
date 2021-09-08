@@ -49,9 +49,9 @@ const Button = styled.button`
   color: white;
   border-radius: 10px;
   font-weight: bold;
-  
+margin-right:20px;
   letter-spacing: 2px;
-  cursor:pointer;
+  cursor: pointer;
 `;
 const Contact = styled.div`
   display: flex;
@@ -70,7 +70,6 @@ const ContactText = styled.span`
 const Image = styled.img`
   height: 60%;
 `;
-
 
 const Intro = () => {
   return (
@@ -94,7 +93,7 @@ const Intro = () => {
       </Left>
       <Right>
         <Image src={Woman}></Image>
-        <AnimatedShapes/>
+        <AnimatedShapes />
       </Right>
     </Container>
   );

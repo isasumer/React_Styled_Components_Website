@@ -20,7 +20,9 @@ const FormContainer = styled.div`
   width: 50%;
 `;
 const Title = styled.h1`
-  margin: 40px 70px;
+  text-align: center;
+  margin-bottom: 20px;
+
   font-size: 2rem;
 `;
 
