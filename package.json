@@ -1,5 +1,6 @@
 {
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gh-pages": "^3.2.3"
   }
 }
