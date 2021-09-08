@@ -36,6 +36,7 @@ const MenuItem = styled.li`
 const Button =styled.button`
 padding: 10px 15px;
 background-color: blue;
+color:white;
 font-weight: bold;
 border-radius: 10px;
 cursor:pointer;
