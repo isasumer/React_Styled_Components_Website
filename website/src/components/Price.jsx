@@ -43,7 +43,7 @@ const Price = () => {
         <PriceCard price="30" type="Advanced" />
       </CardContainer>
       <Bottom></Bottom>
-      <Bottom></Bottom>
+
     </Container>
   );
 };

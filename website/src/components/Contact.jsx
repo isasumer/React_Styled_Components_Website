@@ -5,8 +5,11 @@ import phone from "./img/phone.png";
 import send from "./img/send.png";
 
 const Container = styled.div`
-  height: 85%;
+  height: 90%;
   background: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png");
+  @media only screen and (max-width: 480px) {
+    height: 85%;
+  }
 `;
 const Wrapper = styled.div`
   height: 100%;
@@ -128,7 +131,6 @@ const AddressItem = styled.div`
     margin-bottom: 20px;
     margin-left: 30px;
   }
-
 `;
 const Icon = styled.img`
   width: 40px;
