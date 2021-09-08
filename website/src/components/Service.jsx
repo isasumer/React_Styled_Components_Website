@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import AnimatedShapes from "./AnimatedShapes";
 import service from "./img/service.png";
 import MiniCard from "./MiniCard";
 import Play from "./img/play.png";
@@ -104,6 +105,7 @@ const Service = () => {
           </Button>
         </Wrapper>
       </Right>
+      <AnimatedShapes/>
     </Container>
   );
 };

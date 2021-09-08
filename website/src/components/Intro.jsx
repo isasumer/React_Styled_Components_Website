@@ -44,7 +44,8 @@ const Right = styled.div`
 
 const Button = styled.button`
   background-color: blue;
-  padding: 15px;
+  font-size: 18px;
+  padding: 10px;
   color: white;
   border-radius: 10px;
   font-weight: bold;
@@ -82,7 +83,7 @@ const Intro = () => {
           reiciendis quisquam.
         </Desc>
         <Info>
-          <Button>This is Button</Button>
+          <Button>Ask Question</Button>
           <Contact>
             <Phone>Call Us (012) 345 - 6789</Phone>
             <ContactText>
