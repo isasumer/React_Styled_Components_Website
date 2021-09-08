@@ -6,6 +6,9 @@ import AnimatedShapes from "./AnimatedShapes";
 const Container = styled.div`
   height: calc(100vh - 50px);
   display: flex;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 const Left = styled.div`
   width: 60%;
@@ -13,17 +16,32 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+  }
 `;
 
 const Title = styled.h1`
   font-size: 60px;
   width: 60%;
+  @media only screen and (max-width: 480px) {
+    font-size: 50px;
+    width: 100%;
+  }
 `;
 
 const Desc = styled.p`
   width: 60%;
   font-size: 20px;
   margin-top: 20px;
+  @media only screen and (max-width: 480px) {
+    font-size: 20px;
+    width: 95%;
+    wrap: nowrap;
+  }
 `;
 
 const Info = styled.div`
@@ -32,6 +50,10 @@ const Info = styled.div`
   justify-content: space-between;
   margin-top: 50px;
   align-items: center;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    width: 100%;
+  }
 `;
 
 const Right = styled.div`
@@ -49,17 +71,25 @@ const Button = styled.button`
   color: white;
   border-radius: 10px;
   font-weight: bold;
-margin-right:20px;
+  margin-right: 20px;
   letter-spacing: 2px;
   cursor: pointer;
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 20px;
+  }
 `;
 const Contact = styled.div`
   display: flex;
   flex-direction: column;
+  @media only screen and (max-width: 480px) {
+    font-size: 15px;
+    width: 100%;
+    align-items: center;
+  }
 `;
 
 const Phone = styled.span`
-  color: crimson;
+  color: pink;
   font-weight: bold;
 `;
 const ContactText = styled.span`
@@ -69,6 +99,9 @@ const ContactText = styled.span`
 
 const Image = styled.img`
   height: 60%;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Intro = () => {
